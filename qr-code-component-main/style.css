@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@400;700 & family= Josefin+Sans:wght@400;700 & family= Montserrat:ital,wght@ 0,100;0,400;1,400 & família= Roupa:wght@400;700 & família= Roboto:wght@400;700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: rgb(211, 237, 246);
+}
+
+main{
+    width: 16.5vw;
+    height: auto;
+    margin: 10% auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;    
+    box-shadow: 10px 5px 10px rgb(189, 187, 187);
+}
+
+.image img{
+    border-radius: 15px;
+    width: 100%;
+}
+.box-text{
+    margin-top: 8%;
+    padding: 1px;
+    width:100%;
+    height:auto;
+    overflow:hidden
+}
+
+.box-text h1{
+    font-size: 1rem;
+    margin-bottom: 10%;
+    font-weight: 700;
+}
+
+.box-text p{
+    font-size: 0.8rem;
+    color: grey;
+    font-weight: 400;
+}
+
+@media (max-width:1024px) {
+    main{
+        width: 50vw;
+        height: auto;
+    }
+}
+
+@media (max-width:505px) {
+    main{
+        margin-top: 30%;
+        width: 90vw;
+        height: auto;
+    }
+}
